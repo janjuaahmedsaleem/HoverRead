@@ -1,0 +1,35 @@
+{
+    // naming the extension and other initial things //
+    "manifest_version": 3,
+    "name": "HoverRead",
+    "version": "0.01",
+    "description": "Hover over text and make it easier to read",
+    "permissions": ["scripting"],
+    // linking it to html page
+    "action":
+    {
+    // linking it to html page
+    "default_popup": "popup.html",
+    //adding the icon
+    "default_icon": "fav.png"
+
+
+    },
+
+
+// adding bg service worker
+"background":
+{
+    "service_worker": "bg.js"
+
+},
+//adding the content scripts
+
+"content_scripts":
+[{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "css": ["styles.css"]
+}]
+
+}
