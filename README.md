@@ -43,12 +43,7 @@ It contains the icon of the extension.
 
 # Problems Faced:
 
-1:Use the Chrome Extension Manifest v3 format
-2:Inject and control content scripts on web pages
-3:Communicate between the popup and content scripts using messaging
-4:Dynamically change styles and restore them using JavaScript DOM manipulation
-5:Handle edge cases like elements without text, or restricted pages where extensions can’t inject scripts
-
+non
 
 ## AI Acknowledgment:
 Some parts of this project were developed with guidance from ChatGPT (OpenAI), including help with content script logic, style tuning, and error handling. All code was tested and fully understood by me.
